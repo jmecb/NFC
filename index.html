@@ -8,6 +8,19 @@
         <script src="lib/jquery.mobile-1.3.1.js"></script>
         <link href="src/css/jquery.mobile.structure-1.3.1.css" rel="stylesheet">
         <link href="src/css/jquery.mobile.theme-1.3.1.css" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>$.fn.stars = function() {
+    return $(this).each(function() {
+        // Get the value
+        var val = parseFloat($(this).html());
+        // Make sure that the value is in 0 - 5 range, multiply to get width
+        var size = Math.max(0, (Math.min(5, val))) * 16;
+        // Create stars holder
+        var $span = $('<span />').width(size);
+        // Replace the numerical value with stars
+        $(this).html($span);
+    });
+}</script>
     </head>
     
     <body>
@@ -32,14 +45,46 @@
 				<div class="image_box">
 					   <img src="images/Dope_Chef.jpg" width="150" height="150">
 				</div>
-
+		
 				<div class="text_box">
 					<p>Product Title</p><hr>
 					<p>Brief item description summary.</p>
 				</div>
+				
+				<div class="ratings">
+				
+			<span class="rating">
+        <input type="radio" class="rating-input"
+            id="rating-input-1-5" name="rating-input-1">
+        <label for="rating-input-1-5" class="rating-star"></label>
+        <input type="radio" class="rating-input"
+            id="rating-input-1-4" name="rating-input-1">
+        <label for="rating-input-1-4" class="rating-star"></label>
+        <input type="radio" class="rating-input"
+            id="rating-input-1-3" name="rating-input-1">
+        <label for="rating-input-1-3" class="rating-star"></label>
+        <input type="radio" class="rating-input"
+            id="rating-input-1-2" name="rating-input-1">
+        <label for="rating-input-1-2" class="rating-star"></label>
+        <input type="radio" class="rating-input"
+            id="rating-input-1-1" name="rating-input-1">
+        <label for="rating-input-1-1" class="rating-star"></label>
+    </span>
+
+			</div>
+				
 				<div class="button_box">
-				<a data-role="button" data-theme="a">Button</a>
-                <a data-role="button" data-theme="a">Button</a>
+				
+				<div class="button_left">				
+				<p>Text.</p>
+				</div>
+				
+				<div class="button_right">				
+				<a data-role="button" data-theme="a">Reviews</a>
+                <a data-role="button" data-theme="a">Gallery</a>
+                <a data-role="button" data-theme="a">Share</a>
+				</div>
+		
 				</div>
             </div>
             <div data-role="footer">
