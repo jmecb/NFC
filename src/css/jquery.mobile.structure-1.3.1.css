@@ -208,7 +208,7 @@ div.ui-btn-text { width: auto; }
 
 
 .image_box{
-width:45%;
+width:43%;
 border:1px solid black;
 float:left;
 }
@@ -232,6 +232,11 @@ width: 100%;
 .button_left{
 float: left;
 width:40%;
+background-color: #eeeeee;
+border: 1px solid #bbbbbb;
+border-radius: 2px;
+padding: 10px;
+margin-top: 5px;
 }
 
 .button_right{
@@ -260,7 +265,9 @@ background: url(starss.png) 0 -33px;
  background-position: 0 0;
 }
 
-
+p, li{
+font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+}
 
 
 
