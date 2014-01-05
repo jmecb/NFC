@@ -306,6 +306,18 @@ p, li{
 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 }
 
+.container {
+    width:100%;
+}
+.container div {
+    width:100%;
+}
+.container .header {
+text-align:right;
+}
+.container .content {
+    display: none;
+}
 
 
 
