@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.3.1.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.3.1.css" rel="stylesheet">
+        <link href="src/css/jquery.mobile.theme-1.3.1.css" rel="stylesheet">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>$.fn.stars = function() {
+    return $(this).each(function() {
+        // Get the value
+        var val = parseFloat($(this).html());
+        // Make sure that the value is in 0 - 5 range, multiply to get width
+        var size = Math.max(0, (Math.min(5, val))) * 16;
+        // Create stars holder
+        var $span = $('<span />').width(size);
+        // Replace the numerical value with stars
+        $(this).html($span);
+    });
+}</script>
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>NFCapp</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="search.html">Search</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="profile.html">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+				<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+		
+			<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+				
+				<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+				
+				<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+				<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+				
+				<div class="image_gallery">
+					   <img src="images/image.png" width="150" height="150">
+				</div>
+				
+				<p style="text-align:right;"><a href="index.html">..Return to Product</a></p>
+				
+            </div>
+            <div data-role="footer">
+                <h1>UP613631</h1>
+            </div>
+        </div>
+    </body>
+
+</html>

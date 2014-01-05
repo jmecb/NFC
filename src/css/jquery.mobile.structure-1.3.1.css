@@ -209,19 +209,59 @@ div.ui-btn-text { width: auto; }
 
 .image_box{
 width:43%;
-border:1px solid black;
+border:1px solid #BBBBBB;
+border-radius: 2px;
+float:left;
+}
+
+.image_gallery{
+width:43%;
+margin-left:15px;
+margin-bottom:15px;
+padding:1px;
+border:1px solid #BBBBBB;
+border-radius: 2px;
 float:left;
 }
 
 .text_box{
+border:1px solid #BBBBBB;
+border-radius: 2px;
+background-color: #eeeeee;
 float:right;
 width:50%;
+padding: 6px;
 }
 
 .ratings{
 float:right;
 width:100%;
-margin-top:2px;
+margin-top:10px;
+margin-bottom:7px;
+}
+
+.ratings_left{
+width:43%;
+float:left;
+font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
+font-size: 18px; margin: 0; text-align: center; line-height:2.6em;
+	border: 1px solid 		#A60000 /*{a-bup-border}*/;
+	background: 			#333 /*{a-bup-background-color}*/;
+	font-weight: bold;
+	color: 					#fff /*{a-bup-color}*/;
+	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #A60000 /*{a-bup-shadow-color}*/;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #A60000 /*{a-bup-background-start}*/), to( #BF3030 /*{a-bup-background-end}*/)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient( #A60000 /*{a-bup-background-start}*/, #BF3030 /*{a-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient( #A60000 /*{a-bup-background-start}*/, #BF3030 /*{a-bup-background-end}*/); /* FF3.6 */
+	background-image:     -ms-linear-gradient( #A60000 /*{a-bup-background-start}*/, #BF3030 /*{a-bup-background-end}*/); /* IE10 */
+	background-image:      -o-linear-gradient( #A60000 /*{a-bup-background-start}*/, #BF3030 /*{a-bup-background-end}*/); /* Opera 11.10+ */
+	background-image:         linear-gradient( #A60000 /*{a-bup-background-start}*/, #BF3030 /*{a-bup-background-end}*/);
+	}
+
+.ratings_right{
+width:54%;
+float:left;
+margin-left:8px;
 }
 
 .button_box{
@@ -232,6 +272,7 @@ width: 100%;
 .button_left{
 float: left;
 width:40%;
+height: 100%;
 background-color: #eeeeee;
 border: 1px solid #bbbbbb;
 border-radius: 2px;
@@ -244,9 +285,7 @@ float: right;
 width:50%;
 }
 
-
  .rating {
-
 }
 .rating-input {
 position: absolute; 
