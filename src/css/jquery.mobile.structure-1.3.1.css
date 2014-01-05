@@ -208,11 +208,8 @@ div.ui-btn-text { width: auto; }
 
 
 .image_box{
-width:43%;
-border:1px solid #BBBBBB;
-border-radius: 2px;
+width:44%;
 float:left;
-padding:1px;
 }
 
 .image_gallery{
@@ -242,7 +239,7 @@ margin-bottom:7px;
 }
 
 .ratings_left{
-width:40%;
+width:35%;
 float:left;
 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 font-size: 18px; margin: 0; text-align: center; line-height:2.6em;
@@ -260,7 +257,7 @@ font-size: 18px; margin: 0; text-align: center; line-height:2.6em;
 	}
 
 .ratings_right{
-width:57%;
+width:62%;
 float:left;
 margin-left:8px;
 }
