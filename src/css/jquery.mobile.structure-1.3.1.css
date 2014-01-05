@@ -212,6 +212,7 @@ width:43%;
 border:1px solid #BBBBBB;
 border-radius: 2px;
 float:left;
+padding:1px;
 }
 
 .image_gallery{
@@ -241,7 +242,7 @@ margin-bottom:7px;
 }
 
 .ratings_left{
-width:43%;
+width:40%;
 float:left;
 font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
 font-size: 18px; margin: 0; text-align: center; line-height:2.6em;
@@ -259,7 +260,7 @@ font-size: 18px; margin: 0; text-align: center; line-height:2.6em;
 	}
 
 .ratings_right{
-width:54%;
+width:57%;
 float:left;
 margin-left:8px;
 }
@@ -271,7 +272,7 @@ width: 100%;
 
 .button_left{
 float: left;
-width:40%;
+width:45%;
 height: 100%;
 background-color: #eeeeee;
 border: 1px solid #bbbbbb;
@@ -282,7 +283,7 @@ margin-top: 5px;
 
 .button_right{
 float: right;
-width:50%;
+width:45%;
 }
 
  .rating {
