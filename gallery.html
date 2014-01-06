@@ -27,7 +27,7 @@
     <body>
         <div data-role="page" id="page1">
             <div data-role="header">
-                <h1>NFCapp</h1>
+                <h1>NFC App</h1>
                 <div data-role="navbar">
                     <ul>
                         <li>
@@ -43,34 +43,58 @@
                 </div>
             </div>
             <div data-role="content">
-				<div class="image_gallery">
-					   <img src="images/c1.jpg" width="150" height="150">
-				</div>
-		
-			<div class="image_gallery">
-					   <img src="images/c2.jpg" width="150" height="150">
-				</div>
+
+
 				
-				<div class="image_gallery">
-					   <img src="images/c3.jpg" width="150" height="150">
-				</div>
-				
-				<div class="image_gallery">
-					   <img src="images/c4.jpg" width="150" height="150">
-				</div>
-				<div class="image_gallery">
-					   <img src="images/c1.jpg" width="150" height="150">
-				</div>
-				
-				<div class="image_gallery">
-					   <img src="images/c2.jpg" width="150" height="150">
-				</div>
-				
-				<p style="text-align:right;"><a data-role="button" href="#" onclick="window.open('index.html', '_self', 'location=yes');">..Return to Product</a></p>
+				<!--THE IMAGES ARE PLACED IN AN UNORDERED LIST-->
+<ul class="enlarge"> <!--We give the list a class so that we can style it separately from other unordered lists-->
+
+<!--First Image-->
+<li>
+<img src="images/c1.jpg" width="200px" height="255px" alt="Deckchairs" />
+<br /><strong>Grey Striped Jumper - #1</strong>
+<span> <!--span contains the popup image-->
+<img src="images/c1.jpg" alt="Deckchairs" /> <!--popup image-->
+
+</span>
+</li>
+
+<!--Second Image-->
+<li>
+<img src="images/c2.jpg" width="200px" height="255px" alt="Blackpool sunset " /> 
+<br /><strong>Grey Striped Jumper - #2</strong>
+<span> 
+<img src="images/c2.jpg" alt="Blackpool sunset" /> <!--popup image-->
+</span>
+</li>
+
+<!--Third Image-->
+<li>
+<img src="images/c3.jpg" width="200px" height="255px" alt="Blackpool North Pier " /> 
+<br /><strong>Grey Striped Jumper - #3</strong>
+<span> <!--span contains the popup image-->
+<img src="images/c3.jpg" alt="Blackpool North Pier " /> 
+</span>
+</li>
+
+<!--Fourth Image-->
+<li>
+<img src="images/c4.jpg" width="200px" height="255px" alt="Blackpool sunset " /> 
+<br /><strong>Grey Striped Jumper - #4</strong>
+<span> 
+<img src="images/c4.jpg" alt="Blackpool sunset" />
+
+</span>
+</li>
+</ul>
+</ul>
+
+			
+				<p style="text-align:right;"><a data-role="button" href="#" onclick="window.open('index.html', '_self', 'location=yes');">&larr; Return to Product</a></p>
 				
             </div>
             <div data-role="footer">
-                <h1>UP613631</h1>
+                <h1>v4.2.1</h1>
             </div>
         </div>
     </body>
